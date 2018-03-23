@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="TestSuite" time="0.066" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="FreeCRMTestJob"/>
+    <property name="PWD" value="/home/lwyz/Jenkins"/>
+    <property name="LESSCLOSE" value="/bin/lesspipe %s %s"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="LC_TIME" value="es_MX.UTF-8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/home/lwyz/.jenkins"/>
+    <property name="PATH" value="/sbin:/bin:/usr/bin:/usr/local/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="718f22cba4e02da8"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMTest"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMTest"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/user/1000"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="WINDOWID" value="60817414"/>
+    <property name="java.runtime.version" value="1.8.0_151-8u151-b12-0ubuntu0.17.10.2-b12"/>
+    <property name="UID" value="1000"/>
+    <property name="LC_NAME" value="es_MX.UTF-8"/>
+    <property name="GTK_OVERLAY_SCROLLING" value="0"/>
+    <property name="user.name" value="lwyz"/>
+    <property name="MATE_DESKTOP_SESSION_ID" value="this-is-deprecated"/>
+    <property name="XRDP_SESSION" value="1"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="LC_IDENTIFICATION" value="es_MX.UTF-8"/>
+    <property name="SSH_AGENT_PID" value="1323"/>
+    <property name="LC_ADDRESS" value="es_MX.UTF-8"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/FreeCRMTestJob/5/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="QT_ACCESSIBILITY" value="1"/>
+    <property name="DISPLAY" value=":10.0"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.timezone" value="America/Monterrey"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="5"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/home/lwyz/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="LC_MONETARY" value="es_MX.UTF-8"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="LESSOPEN" value="| /bin/lesspipe %s"/>
+    <property name="os.version" value="4.13.0-37-generic"/>
+    <property name="SESSION_MANAGER" value="local/LwyzHpLap:@/tmp/.ICE-unix/1332,unix/LwyzHpLap:/tmp/.ICE-unix/1332"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/FreeCRMTestJob/5/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="javax.accessibility.assistive_technologies" value="org.GNOME.Accessibility.AtkWrapper"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="LC_MEASUREMENT" value="es_MX.UTF-8"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/FreeCRMTestJob/display/redirect"/>
+    <property name="SHLVL" value="2"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/home/lwyz"/>
+    <property name="POM_GROUPID" value="FreeCRMTestAutomation"/>
+    <property name="user.home" value="/home/lwyz"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-5"/>
+    <property name="JENKINS_SERVER_COOKIE" value="718f22cba4e02da8"/>
+    <property name="DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="XDG_SESSION_ID" value="c3"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="/home/lwyz/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="java.class.path" value="/home/lwyz/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12-alpha-1.jar:/home/lwyz/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/boot/plexus-classworlds-2.5.2.jar:/home/lwyz/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /home/lwyz/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven /home/lwyz/.jenkins/war/WEB-INF/lib/remoting-3.18.jar /home/lwyz/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar /home/lwyz/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar 34233"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/home/lwyz/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="VTE_VERSION" value="4804"/>
+    <property name="XDG_CURRENT_DESKTOP" value="MATE"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/home/lwyz/.jenkins"/>
+    <property name="PATH+MAVEN" value="/home/lwyz/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"/>
+    <property name="OLDPWD" value="/home/lwyz"/>
+    <property name="LC_NUMERIC" value="es_MX.UTF-8"/>
+    <property name="PULSE_SCRIPT" value="/etc/xrdp/pulse/default.pa"/>
+    <property name="SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/home/lwyz/Workspace/FreeCRMTest"/>
+    <property name="LC_PAPER" value="es_MX.UTF-8"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/home/lwyz/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="5"/>
+    <property name="COLORTERM" value="truecolor"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/home/lwyz/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="/home/lwyz/.jenkins/workspace/FreeCRMTestJob"/>
+    <property name="maven3.interceptor.common" value="/home/lwyz/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="GTK_MODULES" value="gail:atk-bridge"/>
+    <property name="LC_TELEPHONE" value="es_MX.UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="lwyz"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="verifyContactsPageLabel" time="0.056"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.005"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.005"/>
+</testsuite>
